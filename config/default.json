@@ -1,0 +1,4 @@
+{
+  "mongoDB_URL": "mongodb+srv://dbuser:1234@cluster0.fspudyf.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "secrettoken"
+}
