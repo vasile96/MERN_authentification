@@ -7,7 +7,7 @@ module.exports = function(req, res, next) {
 
     //check for token (status 401 = unauthorized)
     if (!token) {
-        return res.staus(401).json({ msg: 'Not authorized' })
+        return res.status(401).json({ msg: 'Not authorized' })
     }
 
     // validate token

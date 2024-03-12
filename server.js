@@ -11,7 +11,7 @@ connectDB();
 // initialize middleware (parses incoming JSON payloads)
 app.use(express.json({ extended: false }));
 
-app.use('/api/users', require('./routes/api/users'));
+app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/users', require('./routes/api/users'));
 
-app.listen(PORT, () => console.log('Server started on port ${PORT}'));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
